@@ -37,7 +37,7 @@ public class PickableItem : MonoBehaviour
 
                 if(itemType == ItemType.Coin)
                 {
-                    GameManager.instance.coins += 20;
+                    GameManager.instance.coins += 10;//MARKER
                 }
                 else if(itemType == ItemType.Diamond)
                 {

@@ -9,8 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private float moveSpeed;
 
-    //OPTIONAL
-    public float playerPosX, playerPosY;
+    public float playerPosX, playerPosY;//MARKER SAVE POS
 
     private void Start()
     {

@@ -25,6 +25,9 @@ public class Enemy : MonoBehaviour
     [SerializeField] private GameObject fireExplosion;
     public Transform fireExplosionTrans;
 
+    //MARKER EP 48 Enemy Type
+    public string enemyType;
+
     private void Start()
     {
         wayPointTarget = wayPoint01;//original Target is wayPoint01
